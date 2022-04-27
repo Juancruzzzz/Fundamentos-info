@@ -170,4 +170,4 @@ def imprimirListado(socios):
     nombre = input("Nombre y apellido: ")
     numero = numeroSocio(socios_activos, nombre)
     del socios_activos[numero]
-    imprimirListado(socios_activos
+    imprimirListado(socios_activos)
