@@ -46,7 +46,7 @@ tiene_h("hel")
 def palabras_unidasguion(string):
     print(re.findall(r"([a-z]+)_([a-z]+)", string))
 
-palabras_unidasguion("hola_chau")
+palabras_unidasguion("hola_chau")   
 
 #Ejercicio 5
 #Escribí un programa que diga si un string empieza con un número específico.
@@ -88,9 +88,9 @@ caracter_num("hola 3 hola 4")
 #Escribí un programa que extraiga los caracteres que estén entre guiones en un string. 
 # (String de ejemplo: "Hoy estuvimos trabajando con re -regular expression- en python -con VSCode-")
 
+
 def a(string):
     return (re.findall("-.*-",string))
-
 print (a("-afafs-sadfafsfsf"))
 
 #Ejercicio 10
@@ -163,4 +163,4 @@ def validar_mail(mail):
     valido = bool(re.match(r"(\S+)@(\w+)\.(\w)", mail))
     print (valido)
 
-validar_mail("agustingraciano8@gmail.com" )
+validar_mail("juancruzmelga@gmail.com" )

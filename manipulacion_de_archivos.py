@@ -1,3 +1,5 @@
+onCommand:codegenx.open_CodeGenX
+
 #Ejercicio 1
 def no_p (archivo, letra):
     suma = 0
